@@ -42,7 +42,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q CacheCleaner_Android_Project.zip -d project
+          unzip -q CacheCleaner_Android_Project_with_Icon.zip -d project
           ls -la project
 
       - name: Set up Gradle
